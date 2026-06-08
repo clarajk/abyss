@@ -23,7 +23,7 @@ checksum=8c6d6415740bb05942400e0d1bacabe6eab1b6a819e955cb4b095087d36b66bf
 conflicts="noctalia>=0"
 provides="noctalia-${version}_${revision}"
 
-CXXFLAGS="-std=c++20"
+CXXFLAGS="-std=c++23"
 
 hostmakedepends="meson ninja pkg-config git curl"
 
