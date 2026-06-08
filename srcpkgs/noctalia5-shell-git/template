@@ -6,7 +6,6 @@ wrksrc="noctalia-shell-${_commit}"
 
 _abyss_source=git-head
 _abyss_repo="https://github.com/noctalia-dev/noctalia-shell.git"
-_abyss_branch=v5
 
 build_style=meson
 buildtype=release
