@@ -1,6 +1,6 @@
 pkgname=niri-git
-_commit=f717ae030fe56fc52522ebef69f17f3f09064ac4
-version=20260605074333
+_commit=6f1a2c5f0e8274223d4204b1f8d6f7f91538967e
+version=20260609010708
 revision=1
 build_style=cargo
 build_helper="qemu"
@@ -22,7 +22,7 @@ _abyss_source=git-head
 _abyss_repo="https://github.com/niri-wm/niri.git"
 
 distfiles="https://github.com/niri-wm/niri/archive/${_commit}.tar.gz"
-checksum=36eba1e98b3973a7aab355997692c7bb86baa24ab0ec9474aa4d997364db2260
+checksum=62a50ae854613b45d7b9120446d331aea04b5c84ae9a01d69c508e37420257fa
 
 do_check() {
     if [ "$XBPS_TARGET_LIBC" != "musl" ]; then
