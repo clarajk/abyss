@@ -1,7 +1,7 @@
 pkgname=noctalia5-shell-git
-version=20260619132214
+version=20260619184704
 revision=1
-_commit=00c2c3593a5b9f9f020ef7609be0cb8e04c90e33
+_commit=42eed1d0999ccedda86a90aa7445fe18895bca38
 wrksrc="noctalia-shell-${_commit}"
 
 _abyss_source=git-head
@@ -16,7 +16,7 @@ license="MIT"
 homepage="https://github.com/noctalia-dev/noctalia-shell"
 
 distfiles="https://github.com/noctalia-dev/noctalia-shell/archive/${_commit}.tar.gz"
-checksum=4cfca314c9cf7d13981b72ddcfc7d879ed80b34aeaed8d3a483b73c8e42e8050
+checksum=b818e740a499bada3d7e774eade76b63d33aa26df92b43a528432475809011b6
 
 # Conflict with 'noctalia' to prevent package collisions
 conflicts="noctalia>=0"
