@@ -1,6 +1,6 @@
 pkgname=quickshell-git
-_commit=68c2c85c33845385f7ab8147b32f1450b1e468e0
-version=20260619080729
+_commit=1661ef100a431a470ed2c42e6d06539b77edf826
+version=20260630125307
 revision=1
 build_style=cmake
 
@@ -28,4 +28,4 @@ conflicts="quickshell>=0"
 provides="quickshell-${version}_${revision}"
 
 distfiles="https://git.outfoxxed.me/quickshell/quickshell/archive/${_commit}.tar.gz"
-checksum=b17ad5d3abf555b468e277e9cd7a6d5a98b1f7b96ce5d6c54706685765349650
+checksum=c6542a8d8f25cc89fd263054d345e6549417a81d1950a246deec5b684e84e549
