@@ -38,6 +38,7 @@ makedepends="
  harfbuzz-devel
  libxkbcommon-devel
  pipewire-devel
+ wireplumber-devel
  libcurl-devel
  pam-devel
  libwebp-devel
