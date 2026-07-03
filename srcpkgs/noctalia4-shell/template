@@ -1,5 +1,5 @@
 pkgname=noctalia4-shell
-version=4.7.7
+version=5.0.0-beta1
 revision=1
 hostmakedepends=""
 maintainer="Clara Keller <https://github.com/clarajk>"
@@ -18,7 +18,7 @@ _abyss_repo=noctalia-dev/noctalia-shell
 _abyss_strip=v
 
 distfiles="https://github.com/noctalia-dev/noctalia-shell/archive/refs/tags/v${version}.tar.gz"
-checksum=1189099030b24097d2a351015d2f0290f2ff03dfc928dc4c4191cbace2b7b2ad
+checksum=b3dbcc19f83e614b280f19ad4786365a6c17f979f47990ec9ef280ae076e9c79
 
 build() {
     return 0
