@@ -1,4 +1,4 @@
-pkgname=noctalia5-shell-git
+pkgname=noctalia-shell-git
 version=20260703183454
 revision=1
 _commit=e6dd48e480d4f6c270d37d94b046a96ad1c8d0db
@@ -17,12 +17,6 @@ homepage="https://github.com/noctalia-dev/noctalia-shell"
 
 distfiles="https://github.com/noctalia-dev/noctalia-shell/archive/${_commit}.tar.gz"
 checksum=bd130f1c2d4333f5af530784058c1f19bece0c2877cdfe7dd7783a022f11ce65
-
-# Conflict with 'noctalia' to prevent package collisions
-conflicts="noctalia>=0"
-provides="noctalia-${version}_${revision}"
-
-CXXFLAGS="-std=c++23"
 
 hostmakedepends="meson ninja pkg-config git curl"
 
