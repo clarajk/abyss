@@ -44,6 +44,10 @@ makedepends="
  glib-devel
  libqalculate-devel
  libxml2-devel
+ libmd4c-devel
+ json-c++
+ tomlplusplus-devel
+ stb
 "
 
 post_install() {
