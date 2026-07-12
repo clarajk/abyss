@@ -1,7 +1,7 @@
 pkgname=noctalia-greeter-git
-version=20260711182405
+version=20260712070142
 revision=1
-_commit=bd05affc35c7712e176657f1cd0ff44efcefa4a7
+_commit=fffc583a0da07b0240372544dd8d9effb21a30b9
 wrksrc="noctalia-greeter-${_commit}"
 
 _abyss_source=git-head
@@ -16,7 +16,7 @@ license="MIT"
 homepage="https://github.com/noctalia-dev/noctalia-greeter"
 
 distfiles="https://github.com/noctalia-dev/noctalia-greeter/archive/${_commit}.tar.gz"
-checksum=5554c49757685c3434f59240110ef12ff7e3a9c0a061f13366303dd86ee81d4b
+checksum=a7c94e6ac88dd39efb6307bf2b543ee52b7a8aa9ddcd7d81936b57b5c6595824
 
 hostmakedepends="meson ninja pkg-config git"
 
