@@ -1,6 +1,6 @@
 # Template file for 'dankmaterialshell'
 pkgname=dank-material-shell
-version=1.5.1
+version=1.5.2
 revision=1
 wrksrc="DankMaterialShell-${version}"
 
@@ -21,7 +21,7 @@ license="GPL-3.0-or-later"
 homepage="https://github.com/AvengeMedia/DankMaterialShell"
 
 distfiles="https://github.com/AvengeMedia/DankMaterialShell/archive/refs/tags/v${version}.tar.gz"
-checksum=cdd35cb5cb120e74772bdd66ae6dc646c3cc59dbe5f6ffc6b263892f33ad5fdf
+checksum=2fa4fccb9e3fd259fb5e2c8d6e5fe329096f893ca6b8ac9766c699061e0b347c
 
 post_install() {
     cd ..
