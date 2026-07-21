@@ -1,7 +1,7 @@
 pkgname=noctalia-shell-git
-version=20260721123925
+version=20260721183609
 revision=1
-_commit=6d7677827ca1d5f09df2abc48c382c93f6b5909c
+_commit=2eaa524cfdb25c8cc468e781b467e2e9ed075e9a
 wrksrc="noctalia-shell-${_commit}"
 
 _abyss_source=git-head
@@ -16,7 +16,7 @@ license="MIT"
 homepage="https://github.com/noctalia-dev/noctalia-shell"
 
 distfiles="https://github.com/noctalia-dev/noctalia-shell/archive/${_commit}.tar.gz"
-checksum=dd9ad52294231c593cc9d87e8592daab73174723b34885d5c4255e02df84bbec
+checksum=14c4227974b3afed7a48719805acd2e61106b22c488f3405a9814a80de5b4b98
 
 hostmakedepends="meson ninja pkg-config git curl"
 
