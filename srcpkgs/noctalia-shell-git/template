@@ -49,6 +49,7 @@ makedepends="
  tomlplusplus-devel
  stb
  libsecret-devel
+ libsodium-devel
 "
 
 post_install() {
