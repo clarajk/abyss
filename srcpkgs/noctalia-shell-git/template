@@ -1,6 +1,6 @@
 pkgname=noctalia-shell-git
 version=20260722183257
-revision=1
+revision=2
 _commit=632e65e1e93dbe2fa281d3ee7c2aceef903e5578
 wrksrc="noctalia-shell-${_commit}"
 
@@ -48,6 +48,7 @@ makedepends="
  json-c++
  tomlplusplus-devel
  stb
+ libsecret-devel
 "
 
 post_install() {
